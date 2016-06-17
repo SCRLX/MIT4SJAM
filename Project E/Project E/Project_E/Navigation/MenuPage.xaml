@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Navigation.MenuPage"
+             xmlns:local="clr-namespace:Project_E.Utilities;assembly=Project_E"
+             Icon="hamburger.png"
+             Title="menu"
+             BackgroundColor="#CC000004">
+  <StackLayout Spacing="0" VerticalOptions="FillAndExpand" Padding="0,10,0,0">
+
+  <StackLayout>
+        <ContentView Padding="0,0,0,0" VerticalOptions="Start" HeightRequest="125">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"></RowDefinition>
+              <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Source="banner.png" Aspect="AspectFill" Grid.RowSpan="2"></Image>
+            <Image Source="bannertext.png" Aspect="AspectFill" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" ></Image>
+              <Label Text="{Binding Email}" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Grid.Row="1"></Label>
+          </Grid>
+    </ContentView>
+  </StackLayout>
+  <BoxView HeightRequest="0.5" Color="White"></BoxView>
+  <ListView ItemsSource="{Binding MenuItems}" VerticalOptions="FillAndExpand" SeparatorColor="White" BackgroundColor="Transparent" ItemSelected="Navigate" RowHeight="50">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout Orientation="Horizontal">
+          <Image Source="{Binding IconSource}" HorizontalOptions="Start" Margin="10,0,0,0"></Image>
+          <Label Text="{Binding Title}" TextColor="White" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" VerticalOptions="Center"></Label>
+            </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+  </StackLayout>
+</ContentPage>

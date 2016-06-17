@@ -1,20 +1,20 @@
 ﻿using System;
+using Project_E.Pages;
 using Xamarin.Forms;
+
 
 namespace Project_E.Navigation
 {
     public class RootPage : MasterDetailPage
     {
         MenuPage menuPage;
-
         public RootPage()
         {
             Manager.Instance.MenuPage = new MenuPage();
-
+            ToolbarItems.Add(new ToolbarItem("Add","add.png", new Action(Add)));
             menuPage = Manager.Instance.MenuPage;
-            menuPage.Menu.ItemSelected += (sender, e) => NavigateTo(e.SelectedItem as Model.MenuItem);
             Master = menuPage;
-            Detail = new NavigationPage(new ContentPage());
+            Detail = new NavigationPage(new Login());
         }
 
         public void NavigateTo(Type type)
@@ -36,8 +36,12 @@ namespace Project_E.Navigation
 
             Detail = new NavigationPage(displayPage);
 
-            menuPage.Menu.SelectedItem = null;
             IsPresented = false;
+        }
+
+        private void Add()
+        {
+            Navigation.PushModalAsync(new NavigationPage());
         }
     }
 }

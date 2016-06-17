@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.Register"
+             BackgroundImage="background.png"
+             Title="Register">
+  <StackLayout >
+    <Image Source="icon.png" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" VerticalOptions="EndAndExpand"></Image>
+    <BoxView BackgroundColor="White" HeightRequest="1" WidthRequest="300" VerticalOptions="StartAndExpand" HorizontalOptions="Center"></BoxView>
+    <Entry WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center" PlaceholderColor="Gray" Placeholder="Email" HorizontalTextAlignment="Center" TextColor="White"></Entry>
+    <Entry WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center" PlaceholderColor="Gray" Placeholder="Wachtwoord" HorizontalTextAlignment="Center" TextColor="White"></Entry>
+    <Entry WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center" PlaceholderColor="Gray" Placeholder="Herhaal Wachtwoord" HorizontalTextAlignment="Center" TextColor="White"></Entry>
+    <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#FF847C" Text="Registreren" TextColor="White"></Button>
+    <Label TextColor="White" Text="OF" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start"></Label>
+    <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="StartAndExpand" BackgroundColor="#E84A5F" Text="Terug" TextColor="White"></Button>
+  </StackLayout>
+</ContentPage>

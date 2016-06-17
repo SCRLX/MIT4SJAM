@@ -1,0 +1,2 @@
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.UWP\Project_E.UWP.csproj;x86
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\Project_E.csproj;neutral

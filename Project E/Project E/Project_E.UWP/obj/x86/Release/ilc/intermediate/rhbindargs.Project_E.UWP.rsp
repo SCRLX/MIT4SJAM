@@ -1,0 +1,15 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativelink:C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.UWP\obj\x86\Release\ilc\intermediate\MDIL\Project_E.UWP.mdilexe"
+"/i:D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.UWP\obj\x86\Release\ilc\intermediate\MDIL\"
+/out:"D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.UWP\obj\x86\Release\ilc\intermediate\Native\Project_E.UWP.exe"
+"/res:D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.UWP\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\x86\ret\MDIL"
+/shimexe
+/classlib:SharedLibrary

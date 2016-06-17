@@ -14,12 +14,12 @@ namespace Project_E.Navigation.Cells
             ItemsSource = data;
             VerticalOptions = LayoutOptions.FillAndExpand;
             BackgroundColor = Color.Transparent;
+            SeparatorColor = Color.White;
 
             var cell = new DataTemplate(typeof(ImageCell));
             cell.SetBinding(TextCell.TextProperty, "Title");
-            cell.SetValue(TextCell.TextColorProperty, Color.FromHex("#000"));
+            cell.SetValue(TextCell.TextColorProperty, Color.FromHex("#FFF"));
             cell.SetBinding(ImageCell.ImageSourceProperty, "IconSource");
-            
             ItemTemplate = cell;
         }
     }

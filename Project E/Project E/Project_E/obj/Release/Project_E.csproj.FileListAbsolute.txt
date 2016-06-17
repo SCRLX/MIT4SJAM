@@ -1,0 +1,14 @@
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Project_E.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Project_E.pdb
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Core.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Platform.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Xaml.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Core.pdb
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Core.xml
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Platform.pdb
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Xaml.pdb
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\bin\Release\Xamarin.Forms.Xaml.xml
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\obj\Release\Project_E.Pages.Login.xaml.g.cs
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\obj\Release\Project_E.Pages.Register.xaml.g.cs
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\obj\Release\Project_E.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E\obj\Release\Project_E.pdb

@@ -1,9 +1,11 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="f7f417b9-5b4a-9692-10d4-bb874feaa2e9" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="2828b56a-3245-7d15-6650-dfb4f30cfa91" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\coding4fun.toolkit.controls.2.1.6\lib\wpa81\coding4fun.toolkit.controls.dll" HashGuid="8bbb9304-fede-39af-5ed4-00ee4e3fd140" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\coding4fun.toolkit.controls.2.1.6\lib\wpa81\coding4fun.toolkit.dll" HashGuid="119685b3-f018-829b-095c-510e7d2a3a28" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\wpa81\xamarin.forms.core.dll" HashGuid="c30391b9-f93a-55bc-3bed-bad91032c5ef" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="0582f833-519c-0b5c-af4a-4e3bd65d7303" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="ed0eb42c-d027-efc5-2897-d47071690c00" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

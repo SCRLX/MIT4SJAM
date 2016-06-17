@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Project_E.Navigation.Cells;
 using Xamarin.Forms;
 
 namespace Project_E.Navigation
