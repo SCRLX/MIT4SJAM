@@ -5,8 +5,6 @@ using System.Text;
 using Project_E.Navigation;
 using Project_E.Pages;
 using Xamarin.Forms;
-using Acr.UserDialogs;
-using MvvmCross.Platform;
 
 namespace Project_E
 {

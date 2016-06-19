@@ -3,15 +3,39 @@
   <Jars></Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.Support.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.UserDialogs\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\AndHUD\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Splat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.Support.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.UserDialogs\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\AndHUD\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Splat\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.Support.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Acr.UserDialogs.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\AndHUD.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Splat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -11,7 +11,7 @@ namespace Project_E.Editors
 {
     public partial class ListEditor : IEditor
     {
-        private string Answer { get; set; }
+        private Choice Answer { get; set; }
         public ListEditor()
         {
             InitializeComponent();
@@ -21,17 +21,24 @@ namespace Project_E.Editors
 
         public string GetAnswer()
         {
-            return Answer;
+            if (Answer != null)
+            {
+                return Answer.Option;
+            }
+            else
+            {
+                return "NA";
+            }
         }
 
         public void Init(Question question)
         {
-           
+            BindingContext = question;
         }
 
         public Grid View()
         {
-            return View();
+            return this;
         }
     }
 }

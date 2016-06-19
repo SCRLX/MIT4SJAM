@@ -40,6 +40,9 @@
     <Compile Include="Editors\ListEditor.xaml.cs">
       <DependentUpon>ListEditor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Editors\RatingEditor.xaml.cs">
+      <DependentUpon>RatingEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Editors\TextEditor.xaml.cs">
       <DependentUpon>TextEditor.xaml</DependentUpon>
     </Compile>
@@ -55,9 +58,6 @@
     <Compile Include="Navigation\Model\MenuItem.cs" />
     <Compile Include="Navigation\Model\MenuViewModel.cs" />
     <Compile Include="Navigation\RootPage.cs" />
-    <Compile Include="Pages\QuestionView.xaml.cs">
-      <DependentUpon>QuestionView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -75,6 +75,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\ImageEx.cs" />
+    <Compile Include="ViewModels\SurveyListViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -136,13 +137,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\QuestionView.xaml">
+    <EmbeddedResource Include="Pages\SurveyView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\SurveyView.xaml">
+    <EmbeddedResource Include="Editors\RatingEditor.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

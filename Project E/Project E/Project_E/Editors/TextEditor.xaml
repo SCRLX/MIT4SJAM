@@ -2,5 +2,5 @@
 <Grid xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_E.Editors.TextEditor">
-  <Entry FontSize="16" TextColor="Black" Completed="OnAnswerComplete" Text="{Binding Answer}" Placeholder="Vul hier uw antwoord in..."></Entry>
+  <Entry FontSize="16" TextColor="Black" Text="{Binding Answer}" Placeholder="Vul hier uw antwoord in..." HorizontalTextAlignment="Center"></Entry>
 </Grid>

@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Project_E.Pages.SurveyList">
-  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate">
+             x:Class="Project_E.Pages.SurveyList"
+             Title="Enquêtes"
+             BackgroundColor="#F5F5F5">
+  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate" SeparatorColor="#FF847C" RowHeight="100">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>

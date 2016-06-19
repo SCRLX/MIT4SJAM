@@ -31,7 +31,7 @@ namespace Project_E.Editors
 
         public Grid View()
         {
-            return View();
+            return this;
         }
     }
 }

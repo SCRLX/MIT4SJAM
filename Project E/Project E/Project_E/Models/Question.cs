@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Project_E.Pages;
 using Xamarin.Forms;
 
 namespace Project_E.Models
@@ -10,6 +11,6 @@ namespace Project_E.Models
         public ICollection<Choice> Choices { get; set; }
         public string Answer { get; set; }
         public enum EditorTypes { Open, Multiplechoice, Rating }
-        public ContentView View { get; set; }
+        public View View { get; set; }
     }
 }

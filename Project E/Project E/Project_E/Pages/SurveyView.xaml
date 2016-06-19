@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Project_E.Pages.SurveyView">
-  <ListView ItemsSource="{Binding Questions}">
+             x:Class="Project_E.Pages.SurveyView"
+             Title="{Binding Name}"
+             BackgroundColor="#F5F5F5">
+  <ListView ItemsSource="{Binding Questions}" RowHeight="200" SeparatorVisibility="None">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
-          <ContentPresenter Content="{Binding View}"></ContentPresenter>
+          <Grid Margin="15" BackgroundColor="White">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="50"></RowDefinition>
+              <RowDefinition Height="*"></RowDefinition>
+              <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="{Binding Inquiry}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" ></Label>
+            <ContentView Content="{Binding View}" Grid.Row="1"></ContentView>
+            <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#FF847C" Text="Oke" TextColor="White" Grid.Row="2"></Button>
+          </Grid>
         </ViewCell>
       </DataTemplate>
     </ListView.ItemTemplate>

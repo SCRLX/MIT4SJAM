@@ -11,7 +11,7 @@ namespace Project_E.Navigation.Data
             {
                 Title = "Invullen",
                 IconSource = "compose.png",
-                TargetType = typeof(Login)
+                TargetType = typeof(SurveyList)
             });
             this.Add(new Model.MenuItem()
             {
