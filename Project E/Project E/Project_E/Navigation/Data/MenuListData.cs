@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
+using Project_E.Models;
 using Project_E.Pages;
+using Project_E.Pages.Survey_Pages;
+using Xamarin.Forms;
 
 namespace Project_E.Navigation.Data
 {
@@ -17,7 +20,7 @@ namespace Project_E.Navigation.Data
             {
                 Title = "Beheren",
                 IconSource = "manage.png",
-                TargetType = typeof(Login)
+                TargetType = typeof(SurveyManage)
             });
             this.Add(new Model.MenuItem()
             {
@@ -29,7 +32,7 @@ namespace Project_E.Navigation.Data
             {
                 Title = "Uitloggen",
                 IconSource = "logout.png",
-                TargetType = typeof(Login)
+                TargetType = typeof(ContentPage)
             });
         }
     }

@@ -10,6 +10,6 @@ namespace Project_E.Models
         public DateTime EndDate { get; set; }
         public double Progress { get; set; }
         public ICollection<Question> Questions { get; set; }
-        public ICollection<FeedbackItem> FeedbackItems { get; set; } 
+        public ICollection<FeedbackItem> FeedbackItems { get; set; }
     }
 }

@@ -58,6 +58,9 @@
     <Compile Include="Navigation\Model\MenuItem.cs" />
     <Compile Include="Navigation\Model\MenuViewModel.cs" />
     <Compile Include="Navigation\RootPage.cs" />
+    <Compile Include="Pages\Survey Pages\FeedbackList.xaml.cs">
+      <DependentUpon>FeedbackList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -67,20 +70,43 @@
     <Compile Include="Pages\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\SurveyList.xaml.cs">
+    <Compile Include="Pages\Survey Pages\QuestionEdit.xaml.cs">
+      <DependentUpon>QuestionEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Survey Pages\SurveyAdd.xaml.cs">
+      <DependentUpon>SurveyAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Survey Pages\SurveyEdit.xaml.cs">
+      <DependentUpon>SurveyEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Survey Pages\SurveyList.xaml.cs">
       <DependentUpon>SurveyList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\SurveyView.xaml.cs">
+    <Compile Include="Pages\Survey Pages\SurveyManage.xaml.cs">
+      <DependentUpon>SurveyManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Survey Pages\SurveyView.xaml.cs">
       <DependentUpon>SurveyView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\CustomProgressbar.cs" />
     <Compile Include="Utilities\ImageEx.cs" />
+    <Compile Include="ViewModels\FeedbackListViewModel.cs" />
+    <Compile Include="ViewModels\QuestionEditViewModel.cs" />
+    <Compile Include="ViewModels\QuestionViewModel.cs" />
     <Compile Include="ViewModels\SurveyListViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="CarouselView.FormsPlugin.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CarouselView.FormsPlugin.1.0.18\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10\CarouselView.FormsPlugin.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms">
+      <HintPath>..\..\..\..\14.2.0.26\Xamarin\lib\pcl\Syncfusion.SfRating.XForms.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.0.49\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
@@ -131,19 +157,49 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\SurveyList.xaml">
+    <EmbeddedResource Include="Pages\Survey Pages\SurveyList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\SurveyView.xaml">
+    <EmbeddedResource Include="Pages\Survey Pages\SurveyView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Editors\RatingEditor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\FeedbackList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\SurveyAdd.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\SurveyEdit.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\SurveyManage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\QuestionEdit.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

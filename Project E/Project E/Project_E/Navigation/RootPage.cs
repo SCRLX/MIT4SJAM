@@ -1,7 +1,7 @@
 ﻿using System;
 using Project_E.Pages;
 using Xamarin.Forms;
-
+using Project_E.ViewModels;
 
 namespace Project_E.Navigation
 {
@@ -14,12 +14,13 @@ namespace Project_E.Navigation
             ToolbarItems.Add(new ToolbarItem("Add","add.png", new Action(Add)));
             menuPage = Manager.Instance.MenuPage;
             Master = menuPage;
-            Detail = new NavigationPage(new Login());
+            Detail = new NavigationPage(new SurveyList());
         }
 
         public void NavigateTo(Type type)
         {
             Page page = (Page) Activator.CreateInstance(type);
+
             Detail = new NavigationPage(page);
         }
 
@@ -39,9 +40,13 @@ namespace Project_E.Navigation
             IsPresented = false;
         }
 
+        public void NavigateTo(CarouselPage page)
+        {
+            Detail = new NavigationPage(page);
+        }
         private void Add()
         {
-            Navigation.PushModalAsync(new NavigationPage());
+            Navigation.PushModalAsync(new NavigationPage(new SurveyAdd()),true);
         }
     }
 }

@@ -3,28 +3,15 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -284,56 +271,6 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1868,28 +1805,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -2101,48 +2025,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -2191,14 +2073,6 @@
           "runtimes/win8-arm/native/mscordbi.dll": {},
           "runtimes/win8-arm/native/mscorrc.debug.dll": {},
           "runtimes/win8-arm/native/mscorrc.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3594,28 +3468,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -3824,48 +3685,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -3895,14 +3714,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5278,28 +5089,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -5516,48 +5314,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -5609,14 +5365,6 @@
           "runtimes/win7-x64/native/mscordbi.dll": {},
           "runtimes/win7-x64/native/mscorrc.debug.dll": {},
           "runtimes/win7-x64/native/mscorrc.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -7012,28 +6760,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -7242,48 +6977,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -7313,14 +7006,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8696,28 +8381,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -8934,48 +8606,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -9027,14 +8657,6 @@
           "runtimes/win7-x86/native/mscordbi.dll": {},
           "runtimes/win7-x86/native/mscorrc.debug.dll": {},
           "runtimes/win7-x86/native/mscorrc.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -10430,28 +10052,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Acr.UserDialogs/5.2.2": {
+      "CarouselView.FormsPlugin/1.0.18": {
         "dependencies": {
-          "Coding4Fun.Toolkit.Controls": "[2.1.6, 3.0.0)",
-          "Splat": "[1.6.2, 2.0.0)"
+          "Xamarin.Forms": "2.2.0.31"
         },
         "compile": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Acr.UserDialogs.Interface.dll": {},
-          "lib/uap10.0/Acr.UserDialogs.dll": {}
-        }
-      },
-      "Coding4Fun.Toolkit.Controls/2.1.6": {
-        "compile": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
-        },
-        "runtime": {
-          "lib/netcore451/Coding4Fun.Toolkit.Controls.dll": {},
-          "lib/netcore451/Coding4Fun.Toolkit.dll": {}
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -10660,48 +10269,6 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Binding": "4.2.0",
-          "MvvmCross.Core": "4.2.0"
-        }
-      },
-      "MvvmCross.Binding/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Core": "4.2.0"
-        },
-        "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/4.2.0": {
-        "dependencies": {
-          "MvvmCross.Platform": "4.2.0"
-        },
-        "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
-        }
-      },
-      "MvvmCross.Platform/4.2.0": {
-        "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
-        }
-      },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -10731,14 +10298,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
-        }
-      },
-      "Splat/1.6.2": {
-        "compile": {
-          "lib/NetCore45/Splat.dll": {}
-        },
-        "runtime": {
-          "lib/NetCore45/Splat.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -12115,95 +11674,17 @@
     }
   },
   "libraries": {
-    "Acr.UserDialogs/5.2.2": {
-      "sha512": "2Qzp67AFYo/IhBw7fSJAtGn9MQLDJgznsEymoYjTpKnyYPOVl+lgTiu/kMvBd/1pjA6TvFLHQQGaAYwlQjro3g==",
+    "CarouselView.FormsPlugin/1.0.18": {
+      "sha512": "lDB/O/O7f/Z9HrWY2ZhagL3fyeLdl2315aWbyQqP9hKCA7a/Ep7/aByFMJzpOVGF819fTVANYMSp++9u3pvTtQ==",
       "type": "package",
       "files": [
-        "Acr.UserDialogs.5.2.2.nupkg.sha512",
-        "Acr.UserDialogs.nuspec",
-        "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll",
-        "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll.mdb",
-        "lib/MonoAndroid10/Acr.UserDialogs.Interface.pdb",
-        "lib/MonoAndroid10/Acr.UserDialogs.dll",
-        "lib/MonoAndroid10/Acr.UserDialogs.dll.mdb",
-        "lib/MonoAndroid10/Acr.UserDialogs.pdb",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll.mdb",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.pdb",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.dll",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.dll.mdb",
-        "lib/Xamarin.iOS10/Acr.UserDialogs.pdb",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.dll",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.pdb",
-        "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.dll",
-        "lib/uap10.0/Acr.UserDialogs.Interface.dll",
-        "lib/uap10.0/Acr.UserDialogs.Interface.pdb",
-        "lib/uap10.0/Acr.UserDialogs.dll",
-        "lib/uap10.0/Acr.UserDialogs.pdb",
-        "lib/uap10.0/Acr.UserDialogs.pri",
-        "lib/uap10.0/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
-        "lib/uap10.0/Acr.UserDialogs/ActionSheetContentDialog.xaml",
-        "lib/uap10.0/Acr.UserDialogs/DatePickerControl.xaml",
-        "lib/uap10.0/Acr.UserDialogs/LoginContentDialog.xaml",
-        "lib/uap10.0/Acr.UserDialogs/ProgressContentDialog.xaml",
-        "lib/uap10.0/Acr.UserDialogs/PromptContentDialog.xaml",
-        "lib/uap10.0/Acr.UserDialogs/Properties/Acr.UserDialogs.rd.xml",
-        "lib/uap10.0/Acr.UserDialogs/TimePickerControl.xaml",
-        "lib/wp8/Acr.UserDialogs.Interface.dll",
-        "lib/wp8/Acr.UserDialogs.Interface.pdb",
-        "lib/wp8/Acr.UserDialogs.dll",
-        "lib/wp8/Acr.UserDialogs.pdb",
-        "lib/wpa81/Acr.UserDialogs.Interface.dll",
-        "lib/wpa81/Acr.UserDialogs.Interface.pdb",
-        "lib/wpa81/Acr.UserDialogs.dll",
-        "lib/wpa81/Acr.UserDialogs.pdb",
-        "lib/wpa81/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
-        "lib/wpa81/Acr.UserDialogs/ActionSheetContentDialog.xaml",
-        "lib/wpa81/Acr.UserDialogs/ActionSheetContentDialog.xbf",
-        "lib/wpa81/Acr.UserDialogs/LoginContentDialog.xaml",
-        "lib/wpa81/Acr.UserDialogs/LoginContentDialog.xbf",
-        "lib/wpa81/Acr.UserDialogs/ProgressContentDialog.xaml",
-        "lib/wpa81/Acr.UserDialogs/ProgressContentDialog.xbf",
-        "lib/wpa81/Acr.UserDialogs/PromptContentDialog.xaml",
-        "lib/wpa81/Acr.UserDialogs/PromptContentDialog.xbf"
-      ]
-    },
-    "Coding4Fun.Toolkit.Controls/2.1.6": {
-      "sha512": "A/6h7wNBkb5UauLcrr2m5JWeN4jVafQJ47XFfLwYU1DyfeRf/GeCMvghdCmHWa6oo2lzI33kEHHJ8mJD+Uo/zA==",
-      "type": "package",
-      "files": [
-        "Coding4Fun.Toolkit.Controls.2.1.6.nupkg.sha512",
-        "Coding4Fun.Toolkit.Controls.nuspec",
-        "content/ReadMe.Coding4Fun.Toolkit.txt",
-        "content/windowsphone8/Toolkit.Content/ApplicationBar.Cancel.png",
-        "content/windowsphone8/Toolkit.Content/ApplicationBar.Check.png",
-        "lib/netcore451/Coding4Fun.Toolkit.Controls.dll",
-        "lib/netcore451/Coding4Fun.Toolkit.Controls.pri",
-        "lib/netcore451/Coding4Fun.Toolkit.Controls/Coding4Fun.Toolkit.Controls.xr.xml",
-        "lib/netcore451/Coding4Fun.Toolkit.Controls/Themes/Generic.xbf",
-        "lib/netcore451/Coding4Fun.Toolkit.dll",
-        "lib/netcore451/Coding4Fun.Toolkit.pri",
-        "lib/windowsphone8/Coding4Fun.Toolkit.Controls.dll",
-        "lib/windowsphone8/Coding4Fun.Toolkit.dll",
-        "lib/windowsphone8/cs/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/da/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/de/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/es/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/fr/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/fr/hu/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/it/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/ko/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/no/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/pl/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/pt/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/ru/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/windowsphone8/sk/Coding4Fun.Toolkit.Controls.resources.dll",
-        "lib/wpa81/Coding4Fun.Toolkit.Controls.dll",
-        "lib/wpa81/Coding4Fun.Toolkit.Controls.pri",
-        "lib/wpa81/Coding4Fun.Toolkit.Controls/Coding4Fun.Toolkit.Controls.xr.xml",
-        "lib/wpa81/Coding4Fun.Toolkit.Controls/Themes/Generic.xbf",
-        "lib/wpa81/Coding4Fun.Toolkit.dll",
-        "lib/wpa81/Coding4Fun.Toolkit.pri"
+        "CarouselView.FormsPlugin.1.0.18.nupkg.sha512",
+        "CarouselView.FormsPlugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll"
       ]
     },
     "Microsoft.CSharp/4.0.0": {
@@ -12790,155 +12271,6 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "MvvmCross/4.2.0": {
-      "sha512": "WFOBMEbnIneJy4niR2AOLOO3WhpJ3/rVWs3gycc6wrxa2U5/Tw36LzeM7dTfYc7kb0YT048B/Y2Gnv4/Z0jVcQ==",
-      "type": "package",
-      "files": [
-        "MvvmCross.4.2.0.nupkg.sha512",
-        "MvvmCross.nuspec"
-      ]
-    },
-    "MvvmCross.Binding/4.2.0": {
-      "sha512": "aUd5+8GWvYaWbegaIL5tmp7GroPiKcvxh7NHEwqBdj4i8Eulc5ekibaR2lbIuqcgrWDMerouYp0HkuAQ8QWagQ==",
-      "type": "package",
-      "files": [
-        "MvvmCross.Binding.4.2.0.nupkg.sha512",
-        "MvvmCross.Binding.nuspec",
-        "lib/MonoAndroid/MvvmCross.Binding.Droid.dll",
-        "lib/MonoAndroid/MvvmCross.Binding.dll",
-        "lib/MonoAndroid/MvvmCross.Binding.dll.mdb",
-        "lib/MonoAndroid/MvvmCross.Localization.dll",
-        "lib/MonoAndroid/MvvmCross.Localization.dll.mdb",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll.mdb",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.dll.mdb",
-        "lib/Xamarin.Mac20/MvvmCross.Localization.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Localization.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Localization.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Localization.dll.mdb",
-        "lib/dotnet/MvvmCross.Binding.dll",
-        "lib/dotnet/MvvmCross.Binding.dll.mdb",
-        "lib/dotnet/MvvmCross.Localization.dll",
-        "lib/dotnet/MvvmCross.Localization.dll.mdb",
-        "lib/net45/MvvmCross.Binding.dll",
-        "lib/net45/MvvmCross.Binding.dll.mdb",
-        "lib/net45/MvvmCross.Localization.dll",
-        "lib/net45/MvvmCross.Localization.dll.mdb",
-        "lib/netcore45/MvvmCross.Binding.dll",
-        "lib/netcore45/MvvmCross.Binding.dll.mdb",
-        "lib/netcore45/MvvmCross.Localization.dll",
-        "lib/netcore45/MvvmCross.Localization.dll.mdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll.mdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Binding.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Binding.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Localization.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Localization.dll.mdb",
-        "lib/win81/MvvmCross.Binding.dll",
-        "lib/win81/MvvmCross.Binding.dll.mdb",
-        "lib/win81/MvvmCross.Localization.dll",
-        "lib/win81/MvvmCross.Localization.dll.mdb",
-        "lib/wp8/MvvmCross.Binding.dll",
-        "lib/wp8/MvvmCross.Binding.dll.mdb",
-        "lib/wp8/MvvmCross.Localization.dll",
-        "lib/wp8/MvvmCross.Localization.dll.mdb",
-        "lib/wpa81/MvvmCross.Binding.dll",
-        "lib/wpa81/MvvmCross.Binding.dll.mdb",
-        "lib/wpa81/MvvmCross.Localization.dll",
-        "lib/wpa81/MvvmCross.Localization.dll.mdb"
-      ]
-    },
-    "MvvmCross.Core/4.2.0": {
-      "sha512": "hy8724Dkl46aJ1qEbfycB7uAE16rngWtC4fLNz7hVXm4kgEW/6n+9KZxvAOF4z3ZC/h0hh1XpluhGTmlXh21MQ==",
-      "type": "package",
-      "files": [
-        "MvvmCross.Core.4.2.0.nupkg.sha512",
-        "MvvmCross.Core.nuspec",
-        "lib/MonoAndroid/MvvmCross.Core.dll",
-        "lib/MonoAndroid/MvvmCross.Droid.Shared.dll",
-        "lib/MonoAndroid/MvvmCross.Droid.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Core.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Mac.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Core.dll",
-        "lib/Xamarin.iOS10/MvvmCross.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.iOS.dll.mdb",
-        "lib/dotnet/MvvmCross.Core.dll",
-        "lib/net45/MvvmCross.Core.dll",
-        "lib/net45/MvvmCross.Wpf.dll",
-        "lib/netcore45/MvvmCross.Core.dll",
-        "lib/netcore45/MvvmCross.WindowsStore.dll",
-        "lib/netcore45/MvvmCross.WindowsStore.pri",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Core.dll",
-        "lib/portable-win81+wpa81/MvvmCross.WindowsCommon.dll",
-        "lib/portable-win81+wpa81/MvvmCross.WindowsCommon.pri",
-        "lib/uap/MvvmCross.Core.dll",
-        "lib/uap/MvvmCross.WindowsUWP.dll",
-        "lib/uap/MvvmCross.WindowsUWP.pri",
-        "lib/uap/MvvmCross.WindowsUWP/Properties/MvvmCross.WindowsUWP.rd.xml",
-        "lib/win81/MvvmCross.Core.dll",
-        "lib/win81/MvvmCross.WindowsCommon.dll",
-        "lib/win81/MvvmCross.WindowsCommon.pri",
-        "lib/wp8/MvvmCross.Core.dll",
-        "lib/wp8/MvvmCross.WindowsPhone.dll",
-        "lib/wpa81/MvvmCross.Core.dll",
-        "lib/wpa81/MvvmCross.WindowsCommon.dll",
-        "lib/wpa81/MvvmCross.WindowsCommon.pri"
-      ]
-    },
-    "MvvmCross.Platform/4.2.0": {
-      "sha512": "gGwl104YibrxTnI7EYgOJQnSj3B/NzcKtgyWT5D3jeHlblhi1lHmRlJHqBCmvVbrN/+O3/kl04zLwWmWGOpNCA==",
-      "type": "package",
-      "files": [
-        "MvvmCross.Platform.4.2.0.nupkg.sha512",
-        "MvvmCross.Platform.nuspec",
-        "lib/MonoAndroid/MvvmCross.Platform.Droid.dll",
-        "lib/MonoAndroid/MvvmCross.Platform.dll",
-        "lib/MonoAndroid/MvvmCross.Platform.dll.mdb",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll.mdb",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.dll.mdb",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll.mdb",
-        "lib/dotnet/MvvmCross.Platform.dll",
-        "lib/dotnet/MvvmCross.Platform.dll.mdb",
-        "lib/net45/MvvmCross.Platform.Wpf.dll",
-        "lib/net45/MvvmCross.Platform.dll",
-        "lib/net45/MvvmCross.Platform.dll.mdb",
-        "lib/netcore45/MvvmCross.Platform.WindowsStore.dll",
-        "lib/netcore45/MvvmCross.Platform.WindowsStore.pri",
-        "lib/netcore45/MvvmCross.Platform.dll",
-        "lib/netcore45/MvvmCross.Platform.dll.mdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.dll.mdb",
-        "lib/win81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/win81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/win81/MvvmCross.Platform.dll",
-        "lib/win81/MvvmCross.Platform.dll.mdb",
-        "lib/wp8/MvvmCross.Platform.WindowsPhone.dll",
-        "lib/wp8/MvvmCross.Platform.dll",
-        "lib/wp8/MvvmCross.Platform.dll.mdb",
-        "lib/wpa81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/wpa81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/wpa81/MvvmCross.Platform.dll",
-        "lib/wpa81/MvvmCross.Platform.dll.mdb"
-      ]
-    },
     "runtime.any.System.Private.DataContractSerialization/4.1.0": {
       "sha512": "nJ5sB6Q7vbOEZ+tm/L7XISxO0Az6tkMup5rhpgPboVpUKgMnsdWiDvSlzzpK/bsiYxMIJCJ4Xrt2abt8Z1beJw==",
       "type": "package",
@@ -13020,36 +12352,6 @@
         "runtimes/win8-arm/native/mscordbi.dll",
         "runtimes/win8-arm/native/mscorrc.debug.dll",
         "runtimes/win8-arm/native/mscorrc.dll"
-      ]
-    },
-    "Splat/1.6.2": {
-      "sha512": "DeH0MxPU+D4JchkIDPYG4vUT+hsWs9S41cFle0/4K5EJMXWurx5DzAkj2366DfK14/XKNhsu6tCl4dZXJ3CD4w==",
-      "type": "package",
-      "files": [
-        "Splat.1.6.2.nupkg.sha512",
-        "Splat.nuspec",
-        "lib/MonoMac/Splat.dll",
-        "lib/MonoMac/Splat.dll.mdb",
-        "lib/Net45/Splat.dll",
-        "lib/Net45/Splat.pdb",
-        "lib/NetCore45/Splat.dll",
-        "lib/NetCore45/Splat.pdb",
-        "lib/NetCore45/Splat.pri",
-        "lib/Portable-Win81+Wpa81/Splat.dll",
-        "lib/Portable-Win81+Wpa81/Splat.pdb",
-        "lib/Portable-Win81+Wpa81/Splat.pri",
-        "lib/Portable-net45+win+wpa81+wp80/Splat.dll",
-        "lib/Xamarin.Mac10/Splat-XamarinMac.csproj.FilesWrittenAbsolute.txt",
-        "lib/Xamarin.Mac10/Splat.dll",
-        "lib/Xamarin.Mac10/Splat.dll.mdb",
-        "lib/Xamarin.iOS10/Splat.dll",
-        "lib/Xamarin.iOS10/Splat.dll.mdb",
-        "lib/monoandroid/Splat.dll",
-        "lib/monoandroid/Splat.dll.mdb",
-        "lib/monotouch/Splat.dll",
-        "lib/monotouch/Splat.dll.mdb",
-        "lib/wp8/Splat.dll",
-        "lib/wp8/Splat.pdb"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -15849,9 +15151,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Acr.UserDialogs >= 5.2.2",
+      "CarouselView.FormsPlugin >= 1.0.18",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
-      "MvvmCross >= 4.2.0",
       "Xamarin.Forms >= 2.3.0.49"
     ],
     "UAP,Version=v10.0": []

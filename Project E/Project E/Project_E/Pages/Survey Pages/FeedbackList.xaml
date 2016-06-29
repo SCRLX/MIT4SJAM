@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.FeedbackList">
+  <ListView SeparatorColor="#FF847C" ItemsSource="{Binding FeedbackItems}" RowHeight="250">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <Grid Margin="15">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"></RowDefinition>
+              <RowDefinition Height="1"></RowDefinition>
+              <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="{Binding Date}" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Grid.Row="0"></Label>
+            <BoxView Color="#FECEA8" HeightRequest="1" Grid.Row="1"></BoxView>
+            <Label Text="{Binding Body}" HorizontalTextAlignment="Start" TextColor="Black" FontAttributes="Italic" Grid.Row="2"></Label>
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

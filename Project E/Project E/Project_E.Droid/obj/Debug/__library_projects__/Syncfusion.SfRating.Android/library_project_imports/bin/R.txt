@@ -1,0 +1,1 @@
+int layout layout_rating 0x7f020000

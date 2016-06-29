@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.Survey_Pages.SurveyManage">
+  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate" SeparatorColor="#FF847C" RowHeight="100">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <Grid Padding="15,0,5,0" BackgroundColor="White">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="100"></RowDefinition>
+              <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Padding="10">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <Label Text="{Binding Name}"  Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"></Label>
+              <Label TextColor="#2A363B" Text="Klik om deze enquête aan te passen.." HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1"></Label>
+            </Grid>
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

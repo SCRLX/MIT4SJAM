@@ -10,7 +10,7 @@ namespace Project_E.Models
         public string Inquiry { get; set; }
         public ICollection<Choice> Choices { get; set; }
         public string Answer { get; set; }
+        public int Stars { get; set; }
         public enum EditorTypes { Open, Multiplechoice, Rating }
-        public View View { get; set; }
     }
 }

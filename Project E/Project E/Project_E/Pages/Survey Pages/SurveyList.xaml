@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.SurveyList"
+             Title="Enquêtes"
+             BackgroundColor="#F5F5F5"
+  xmlns:local="clr-namespace:Project_E.Utilities;assembly=Project_E">
+  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate" SeparatorColor="#FF847C" RowHeight="100">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <Grid Padding="15,0,5,0" BackgroundColor="White">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Padding="10">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <Grid.ColumnSpacing>10</Grid.ColumnSpacing>
+              <Label Text="{Binding Name}"  Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"></Label>
+              <local:CustomProgressbar Progress="{Binding Progress}" Grid.Row="1" Grid.Column="0"></local:CustomProgressbar>
+              <Image Aspect="AspectFit" Source="feedback.png" Grid.Column="1" Grid.RowSpan="2" VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                  <TapGestureRecognizer Tapped="NavigateFeedback" CommandParameter="{Binding Name}"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+              </Image>
+              <Image Aspect="AspectFit" Source="remove.png" Grid.Column="2" Grid.RowSpan="2" VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding Name}"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+              </Image>
+            </Grid>
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

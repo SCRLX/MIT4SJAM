@@ -22,7 +22,7 @@
     </ContentView>
   </StackLayout>
   <BoxView HeightRequest="0.5" Color="White"></BoxView>
-  <ListView ItemsSource="{Binding MenuItems}" VerticalOptions="FillAndExpand" SeparatorColor="White" BackgroundColor="Transparent" ItemSelected="Navigate" RowHeight="50">
+  <ListView ItemsSource="{Binding MenuItems}" VerticalOptions="FillAndExpand" SeparatorColor="White" BackgroundColor="Transparent" ItemSelected="ListView_OnItemSelected" RowHeight="50">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>

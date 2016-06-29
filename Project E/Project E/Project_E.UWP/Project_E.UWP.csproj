@@ -132,6 +132,20 @@
       <Name>Project_E</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.SfInput.UWP">
+      <HintPath>..\..\..\..\14.2.0.26\Xamarin\lib\uwp\Syncfusion.SfInput.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms">
+      <HintPath>..\..\..\..\14.2.0.26\Xamarin\lib\uwp\Syncfusion.SfRating.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms.UWP">
+      <HintPath>..\..\..\..\14.2.0.26\Xamarin\lib\uwp\Syncfusion.SfRating.XForms.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.UWP">
+      <HintPath>..\..\..\..\14.2.0.26\Xamarin\lib\uwp\Syncfusion.SfShared.UWP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

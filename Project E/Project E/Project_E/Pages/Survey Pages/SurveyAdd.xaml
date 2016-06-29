@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.SurveyAdd"
+             BackgroundColor="#F5F5F5"
+             Title="Survey Toevoegen">
+  <StackLayout Margin="15">
+    <Entry TextColor="Black" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Placeholder="Survey Code..."></Entry>
+    <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="End" BackgroundColor="#FF847C" Text="Toevoegen" TextColor="White"></Button>
+  </StackLayout>
+</ContentPage>

@@ -17,8 +17,12 @@ namespace Project_E.Editors {
     public partial class RatingEditor : global::Xamarin.Forms.Grid {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.SfRating.XForms.SfRating rating;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RatingEditor));
+            rating = this.FindByName<global::Syncfusion.SfRating.XForms.SfRating>("rating");
         }
     }
 }

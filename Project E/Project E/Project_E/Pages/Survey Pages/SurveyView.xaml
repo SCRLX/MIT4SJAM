@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.SurveyView">
+  <CarouselPage.ItemTemplate>
+    <DataTemplate>
+      <ContentPage>
+        <Grid Padding="10">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+          </Grid.RowDefinitions>
+          <ContentView xmlns:local="clr-namespace:Project_E.Utilities;assembly=Project_E" Grid.Row="0">
+            <local:CustomProgressbar x:Name="Progress" ></local:CustomProgressbar>
+          </ContentView>
+        <Grid Margin="15" BackgroundColor="White" Grid.Row="1">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Label Text="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" ></Label>
+          <ContentView Content="{Binding View}" Grid.Row="1"></ContentView>
+          <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#FF847C" Text="VOLGENDE VRAAG" TextColor="White" Grid.Row="2"></Button>
+        </Grid>
+        </Grid>
+      </ContentPage>
+    </DataTemplate>
+  </CarouselPage.ItemTemplate>
+</CarouselPage>

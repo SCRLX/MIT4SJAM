@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.Survey_Pages.QuestionEdit"
+             BackgroundColor="#F5F5F5">
+  <StackLayout>
+    <Entry Placeholder="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
+    <ListView ItemsSource="{Binding Types}" RowHeight="100" SeparatorColor="#FF847C" ItemSelected="ListView_OnItemSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout>
+              <Label Text="{Binding EditorTypes}" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    <Grid>
+      <ContentView x:Name="Options" IsVisible="False">
+        <ListView HorizontalOptions="Center"></ListView>
+      </ContentView>
+      <ContentView x:Name="Stars" IsVisible="False">
+        <StackLayout>
+        <Label TextColor="Black" HorizontalOptions="Center" HorizontalTextAlignment="Center" x:Name="StarCounter" Text="Aantal Sterren: 0"></Label>
+        <Stepper HorizontalOptions="Center" ValueChanged="Stepper_OnValueChanged"></Stepper>
+        </StackLayout>
+      </ContentView>
+      
+    </Grid>
+  </StackLayout>
+</ContentPage>

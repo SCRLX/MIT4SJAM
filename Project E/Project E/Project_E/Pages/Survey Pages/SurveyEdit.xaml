@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_E.Pages.SurveyEdit">
+<StackLayout>
+  <ListView ItemsSource="{Binding Questions}" SeparatorColor="#FF847C" RowHeight="125" VerticalOptions="StartAndExpand" ItemSelected="ListView_OnItemSelected">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <Grid Padding="20" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+              <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"></RowDefinition>
+              <RowDefinition Height="Auto"></RowDefinition>
+              <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label TextColor="Black" Text="Vraag:" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+            <Label TextColor="Black" Text="Type:" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+            <Label TextColor="Black" Text="{Binding Inquiry}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"></Label>
+            <Label TextColor="Black" Text="{Binding EditorType}" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start"></Label>
+            <Image Aspect="AspectFit" Source="remove.png" Grid.Column="2" Grid.RowSpan="3" VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding Inquiry}"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+              </Image>
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+  <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#99B898" Text="Vraag toevoegen" TextColor="White"></Button>
+</StackLayout>
+</ContentPage>
