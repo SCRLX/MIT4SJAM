@@ -25,7 +25,7 @@
               </Grid.ColumnDefinitions>
               <Grid.ColumnSpacing>10</Grid.ColumnSpacing>
               <Label Text="{Binding Name}"  Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"></Label>
-              <local:CustomProgressbar Progress="{Binding Progress}" Grid.Row="1" Grid.Column="0"></local:CustomProgressbar>
+              <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="Black" Grid.Row="1" Grid.Column="0" Text="{Binding Progress}"></Label>
               <Image Aspect="AspectFit" Source="feedback.png" Grid.Column="1" Grid.RowSpan="2" VerticalOptions="Center">
                 <Image.GestureRecognizers>
                   <TapGestureRecognizer Tapped="NavigateFeedback" CommandParameter="{Binding Name}"></TapGestureRecognizer>

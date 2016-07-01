@@ -33,5 +33,11 @@ namespace Project_E.Editors
         {
             return this;
         }
+
+        private void Entry_OnCompleted(object sender, EventArgs e)
+        {
+            Answer = ((Entry) sender).Text;
+            EditorDone?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

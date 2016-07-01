@@ -2,11 +2,7 @@
 
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using CarouselView.FormsPlugin.Android;
 using Xamarin.Forms.Platform.Android;
 
 namespace Project_E.Droid
@@ -21,7 +17,6 @@ namespace Project_E.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            CarouselViewRenderer.Init();
             LoadApplication(new App());
         }
     }

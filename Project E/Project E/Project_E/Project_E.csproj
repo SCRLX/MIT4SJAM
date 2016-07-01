@@ -70,8 +70,14 @@
     <Compile Include="Pages\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Survey Pages\Finish.xaml.cs">
+      <DependentUpon>Finish.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Survey Pages\QuestionEdit.xaml.cs">
       <DependentUpon>QuestionEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Survey Pages\Start.xaml.cs">
+      <DependentUpon>Start.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Survey Pages\SurveyAdd.xaml.cs">
       <DependentUpon>SurveyAdd.xaml</DependentUpon>
@@ -92,7 +98,6 @@
     <Compile Include="Utilities\CustomProgressbar.cs" />
     <Compile Include="Utilities\ImageEx.cs" />
     <Compile Include="ViewModels\FeedbackListViewModel.cs" />
-    <Compile Include="ViewModels\QuestionEditViewModel.cs" />
     <Compile Include="ViewModels\QuestionViewModel.cs" />
     <Compile Include="ViewModels\SurveyListViewModel.cs" />
   </ItemGroup>
@@ -200,6 +205,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\Survey Pages\QuestionEdit.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\Finish.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Survey Pages\Start.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

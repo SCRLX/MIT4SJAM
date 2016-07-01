@@ -10,10 +10,8 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
           </Grid.RowDefinitions>
-          <ContentView xmlns:local="clr-namespace:Project_E.Utilities;assembly=Project_E" Grid.Row="0">
-            <local:CustomProgressbar x:Name="Progress" ></local:CustomProgressbar>
-          </ContentView>
-        <Grid Margin="15" BackgroundColor="White" Grid.Row="1">
+          <ProgressBar Grid.Row="0" Progress="{Binding Progress}"></ProgressBar>
+        <Grid Margin="15" BackgroundColor="White" Grid.Row="1" Padding="0,0,0,20">
           <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -21,7 +19,7 @@
           </Grid.RowDefinitions>
           <Label Text="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" ></Label>
           <ContentView Content="{Binding View}" Grid.Row="1"></ContentView>
-          <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#FF847C" Text="VOLGENDE VRAAG" TextColor="White" Grid.Row="2"></Button>
+          <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="EndAndExpand" BackgroundColor="#FF847C" Text="Verstuur" TextColor="White" Grid.Row="2" IsVisible="{Binding End}" Clicked="Button_OnClicked"></Button>
         </Grid>
         </Grid>
       </ContentPage>

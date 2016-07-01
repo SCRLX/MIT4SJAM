@@ -1,4 +1,3 @@
-D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\Project_E.Droid.csprojResolveAssemblyReference.cache
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Project_E.Droid.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Project_E.Droid.pdb
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\nl.enqtr.apk
@@ -7,6 +6,9 @@ D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\CarouselView
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\CarouselView.FormsPlugin.Android.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\FormsViewGroup.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Project_E.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.Android.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.XForms.Android.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.XForms.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
@@ -30,6 +32,7 @@ D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Form
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\Project_E.Droid.csprojResolveAssemblyReference.cache
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\Project_E.Droid.dll
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\Project_E.Droid.pdb
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\android\bin\nl.enqtr.apk
@@ -96,10 +99,9 @@ D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable-hdpi\close.png
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable-xhdpi\close.png
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable-xxhdpi\close.png
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable\add_new.png
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\R.cs.flag
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\uploadflags.txt
-D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.Android.dll
-D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.XForms.Android.dll
-D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Syncfusion.SfRating.XForms.dll
+D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\res\drawable\done.png
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\Project_E.Droid.dll.mdb
 D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\bin\Debug\Project_E.Droid.dll.mdb

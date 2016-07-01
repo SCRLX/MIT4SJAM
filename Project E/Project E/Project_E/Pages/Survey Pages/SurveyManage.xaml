@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_E.Pages.Survey_Pages.SurveyManage">
-  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate" SeparatorColor="#FF847C" RowHeight="100">
+  <StackLayout Padding="0,0,0,20">
+  <ListView ItemsSource="{Binding Surveys}" ItemSelected="Navigate" SeparatorColor="#FF847C" RowHeight="100" x:Name="SurveyList">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
@@ -23,4 +24,10 @@
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>
+  <Image Source="add_new.png" Aspect="AspectFit" HeightRequest="50">
+    <Image.GestureRecognizers>
+      <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped"></TapGestureRecognizer>
+    </Image.GestureRecognizers>
+  </Image>
+  </StackLayout>
 </ContentPage>

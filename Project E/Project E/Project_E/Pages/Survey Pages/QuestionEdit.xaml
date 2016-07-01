@@ -3,30 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_E.Pages.Survey_Pages.QuestionEdit"
              BackgroundColor="#F5F5F5">
-  <StackLayout>
-    <Entry Placeholder="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
-    <ListView ItemsSource="{Binding Types}" RowHeight="100" SeparatorColor="#FF847C" ItemSelected="ListView_OnItemSelected">
-      <ListView.ItemTemplate>
-        <DataTemplate>
-          <ViewCell>
-            <StackLayout>
-              <Label Text="{Binding EditorTypes}" TextColor="Black" HorizontalTextAlignment="Center"></Label>
-            </StackLayout>
-          </ViewCell>
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
+  <StackLayout Padding="30">
+    <Label TextColor="Black" Text="Vraag: " HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+    <Entry Placeholder="{Binding Inquiry}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
+        <BoxView HeightRequest="1" Color="#FF847C" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300"></BoxView>
+    <Label TextColor="Black" Text="Type: " HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+    <Picker x:Name="TypePicker" Title="Kies een type" SelectedIndexChanged="TypePicker_OnSelectedIndexChanged"></Picker>
+        <BoxView HeightRequest="1" Color="#FF847C" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300"></BoxView>
     <Grid>
       <ContentView x:Name="Options" IsVisible="False">
-        <ListView HorizontalOptions="Center"></ListView>
+        <ListView ItemsSource="{Binding Choices}">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <Label Text="{Binding Option}" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
       </ContentView>
       <ContentView x:Name="Stars" IsVisible="False">
         <StackLayout>
-        <Label TextColor="Black" HorizontalOptions="Center" HorizontalTextAlignment="Center" x:Name="StarCounter" Text="Aantal Sterren: 0"></Label>
-        <Stepper HorizontalOptions="Center" ValueChanged="Stepper_OnValueChanged"></Stepper>
+        <Label TextColor="Black" HorizontalOptions="Center" HorizontalTextAlignment="Center" x:Name="StarCounter" ></Label>
+        <Stepper HorizontalOptions="Center" ValueChanged="Stepper_OnValueChanged" Value="{Binding Stars}"></Stepper>
         </StackLayout>
       </ContentView>
       
     </Grid>
+    <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="End" BackgroundColor="#FF847C" Text="Opslaan" TextColor="White" Clicked="Button_OnClicked"></Button>
   </StackLayout>
 </ContentPage>

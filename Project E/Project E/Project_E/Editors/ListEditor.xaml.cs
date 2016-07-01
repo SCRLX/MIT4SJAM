@@ -40,5 +40,11 @@ namespace Project_E.Editors
         {
             return this;
         }
+
+        private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Answer = (Choice)e.SelectedItem;
+            EditorDone?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_E.Pages.FeedbackList">
-  <ListView SeparatorColor="#FF847C" ItemsSource="{Binding FeedbackItems}" RowHeight="250">
+  <ListView SeparatorVisibility="None" ItemsSource="{Binding FeedbackItems}" RowHeight="250">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>

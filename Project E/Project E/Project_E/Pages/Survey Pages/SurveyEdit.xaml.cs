@@ -11,7 +11,7 @@ namespace Project_E.Pages
 {
     public partial class SurveyEdit : ContentPage
     {
-        private Survey Survey { get; set; }
+        public static Survey Survey { get; set; }
         public SurveyEdit(object survey)
         {
             Survey = (Survey) survey;
@@ -25,7 +25,21 @@ namespace Project_E.Pages
 
         private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Navigation.PushModalAsync(new NavigationPage(new QuestionEdit((Question)e.SelectedItem)));
+            if (e.SelectedItem != null)
+            {
+                Navigation.PushModalAsync(new NavigationPage(new QuestionEdit((Question)e.SelectedItem)));
+                ((ListView)sender).SelectedItem = null;
+            }
+            else
+            {
+                return;
+            }
+
+        }
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            
         }
     }
 }

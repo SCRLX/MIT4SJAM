@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using Project_E.Editors;
 using Project_E.Models;
 using Xamarin.Forms;
 
@@ -10,7 +11,17 @@ namespace Project_E.ViewModels
         private Question question;
         private double progress;
         private View view;
+        private bool end;
 
+        public bool End
+        {
+            get { return end; }
+            set
+            {
+                end = value;
+                OnPropertyChanged("End");
+            }
+        }
         public Question Question
         {
             get {return question;}
@@ -41,6 +52,7 @@ namespace Project_E.ViewModels
             }
         }
 
+        
         public QuestionViewModel()
         {
             

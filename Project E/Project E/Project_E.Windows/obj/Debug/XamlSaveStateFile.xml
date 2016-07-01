@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\carouselview.formsplugin.1.0.18\lib\portable-net45+netcore45+wpa81+wp8+monoandroid10+xamarin.ios10\carouselview.formsplugin.abstractions.dll" HashGuid="7b898343-72ca-7580-55ab-2a5966ff8910" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\project e\project_e\bin\debug\project_e.dll" HashGuid="bee0bb48-a7f1-eac8-1896-e0cac2b6dcb2" />
+    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\project e\project_e\bin\debug\project_e.dll" HashGuid="4219b97e-177a-efbf-907d-d0756eded118" />
     <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfinput.wp.dll" HashGuid="006d7f49-0cfb-b8b5-e3b2-31f8aeb41b07" />
     <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfrating.xforms.dll" HashGuid="e2e4882c-3293-df91-adb5-fc4328e100e6" />
     <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfrating.xforms.winphone.dll" HashGuid="be365000-4428-84ff-485e-b01c9405bb75" />

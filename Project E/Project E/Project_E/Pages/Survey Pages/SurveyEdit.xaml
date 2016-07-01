@@ -32,6 +32,6 @@
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>
-  <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#99B898" Text="Vraag toevoegen" TextColor="White"></Button>
+  <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#99B898" Text="Vraag toevoegen" TextColor="White" Clicked="Button_OnClicked"></Button>
 </StackLayout>
 </ContentPage>

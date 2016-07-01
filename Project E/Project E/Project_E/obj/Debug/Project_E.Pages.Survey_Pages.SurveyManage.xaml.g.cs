@@ -17,8 +17,12 @@ namespace Project_E.Pages.Survey_Pages {
     public partial class SurveyManage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView SurveyList;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(SurveyManage));
+            SurveyList = this.FindByName<global::Xamarin.Forms.ListView>("SurveyList");
         }
     }
 }

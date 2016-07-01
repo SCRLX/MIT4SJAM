@@ -14,11 +14,24 @@ namespace Project_E.Pages.Survey_Pages
         {
             InitializeComponent();
             BindingContext = new SurveyListViewModel();
-
         }
         public void Navigate(object sender, SelectedItemChangedEventArgs e)
         {
-            App.RootPage.NavigateTo(new SurveyEdit(e.SelectedItem));
+            if (e.SelectedItem != null)
+            {
+                App.RootPage.NavigateTo(new SurveyEdit(e.SelectedItem));
+                ((ListView)sender).SelectedItem = null;
+            }
+            else
+            {
+                return;
+            }
+
+        }
+
+        private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -38,6 +38,7 @@ namespace Project_E.Editors
         private void Rating_OnValueChanged(object sender, ValueEventArgs e)
         {
             Answer = e.Value.ToString();
+            EditorDone?.Invoke(this, EventArgs.Empty);
         }
     }
 }
