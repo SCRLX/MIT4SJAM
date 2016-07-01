@@ -20,11 +20,11 @@
             </Grid.RowDefinitions>
             <Label TextColor="Black" Text="Vraag:" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
             <Label TextColor="Black" Text="Type:" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-            <Label TextColor="Black" Text="{Binding Inquiry}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"></Label>
+            <Label TextColor="Black" Text="{Binding QuestionText}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"></Label>
             <Label TextColor="Black" Text="{Binding EditorType}" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start"></Label>
             <Image Aspect="AspectFit" Source="remove.png" Grid.Column="2" Grid.RowSpan="3" VerticalOptions="Center">
                 <Image.GestureRecognizers>
-                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding Inquiry}"></TapGestureRecognizer>
+                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding QuestionText}"></TapGestureRecognizer>
                 </Image.GestureRecognizers>
               </Image>
           </Grid>

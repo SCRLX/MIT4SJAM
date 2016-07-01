@@ -47,7 +47,7 @@
       <DependentUpon>TextEditor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\ISQLite.cs" />
-    <Compile Include="Models\Choice.cs" />
+    <Compile Include="Models\QuestionOption.cs" />
     <Compile Include="Models\FeedbackItem.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Survey.cs" />

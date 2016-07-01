@@ -24,16 +24,16 @@
                 <ColumnDefinition Width="50"></ColumnDefinition>
               </Grid.ColumnDefinitions>
               <Grid.ColumnSpacing>10</Grid.ColumnSpacing>
-              <Label Text="{Binding Name}"  Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"></Label>
+              <Label Text="{Binding SurveyName}"  Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"></Label>
               <local:CustomProgressbar Progress="{Binding Progress}" Grid.Row="1" Grid.Column="0"></local:CustomProgressbar>
               <Image Aspect="AspectFit" Source="feedback.png" Grid.Column="1" Grid.RowSpan="2" VerticalOptions="Center">
                 <Image.GestureRecognizers>
-                  <TapGestureRecognizer Tapped="NavigateFeedback" CommandParameter="{Binding Name}"></TapGestureRecognizer>
+                  <TapGestureRecognizer Tapped="NavigateFeedback" CommandParameter="{Binding SurveyName}"></TapGestureRecognizer>
                 </Image.GestureRecognizers>
               </Image>
               <Image Aspect="AspectFit" Source="remove.png" Grid.Column="2" Grid.RowSpan="2" VerticalOptions="Center">
                 <Image.GestureRecognizers>
-                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding Name}"></TapGestureRecognizer>
+                  <TapGestureRecognizer Tapped="Remove" CommandParameter="{Binding SurveyName}"></TapGestureRecognizer>
                 </Image.GestureRecognizers>
               </Image>
             </Grid>

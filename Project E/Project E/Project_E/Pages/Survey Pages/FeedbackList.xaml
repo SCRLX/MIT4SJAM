@@ -12,9 +12,9 @@
               <RowDefinition Height="1"></RowDefinition>
               <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Label Text="{Binding Date}" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Grid.Row="0"></Label>
+            <Label Text="{Binding Timestamp}" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Grid.Row="0"></Label>
             <BoxView Color="#FECEA8" HeightRequest="1" Grid.Row="1"></BoxView>
-            <Label Text="{Binding Body}" HorizontalTextAlignment="Start" TextColor="Black" FontAttributes="Italic" Grid.Row="2"></Label>
+            <Label Text="{Binding Content}" HorizontalTextAlignment="Start" TextColor="Black" FontAttributes="Italic" Grid.Row="2"></Label>
           </Grid>
         </ViewCell>
       </DataTemplate>

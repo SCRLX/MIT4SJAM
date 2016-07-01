@@ -19,7 +19,7 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
           </Grid.RowDefinitions>
-          <Label Text="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" ></Label>
+          <Label Text="{Binding Question.QuestionText}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" ></Label>
           <ContentView Content="{Binding View}" Grid.Row="1"></ContentView>
           <Button HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="#FF847C" Text="VOLGENDE VRAAG" TextColor="White" Grid.Row="2"></Button>
         </Grid>

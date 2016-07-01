@@ -4,7 +4,7 @@
              x:Class="Project_E.Pages.Survey_Pages.QuestionEdit"
              BackgroundColor="#F5F5F5">
   <StackLayout>
-    <Entry Placeholder="{Binding Question.Inquiry}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
+    <Entry Placeholder="{Binding Question.QuestionText}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
     <ListView ItemsSource="{Binding Types}" RowHeight="100" SeparatorColor="#FF847C" ItemSelected="ListView_OnItemSelected">
       <ListView.ItemTemplate>
         <DataTemplate>
