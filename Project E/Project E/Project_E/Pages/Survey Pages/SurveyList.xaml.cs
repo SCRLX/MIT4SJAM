@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Project_E.Models;
 using Project_E.ViewModels;
 using Xamarin.Forms;
+using Project_E.Utilities;
 
 namespace Project_E.Pages
 {
@@ -19,6 +20,9 @@ namespace Project_E.Pages
             InitializeComponent();
             ViewModel = new SurveyListViewModel();
             BindingContext = ViewModel;
+            WebAPI api = new WebAPI();
+            string list = api.Get("survey/getlist"); //lijst van mogelijke surveys ophalen
+            int a = 0;
         }
         public void Navigate(object sender, SelectedItemChangedEventArgs e)
         {
@@ -27,7 +31,7 @@ namespace Project_E.Pages
 
         public void NavigateFeedback(object sender, EventArgs e)
         {
-            Survey survey = ViewModel.Surveys.Where(s => s.Name == (string)((TappedEventArgs)e).Parameter).First();
+            Survey survey = ViewModel.Surveys.Where(s => s.SurveyName == (string)((TappedEventArgs)e).Parameter).First();
             App.RootPage.NavigateTo(new FeedbackList(survey));
         }
 

@@ -14,7 +14,6 @@ namespace Project_E.Pages
     public partial class SurveyView : CarouselPage
     {
         private Survey Survey;
-        private IEditor editor;
         private List<QuestionViewModel> Items;
         public SurveyView(object survey)
         {
@@ -24,8 +23,8 @@ namespace Project_E.Pages
             Items.Add(new QuestionViewModel() { Progress = 0,End = false, Question = null, View = new ContentView() { Content = new Start() } });
             foreach (var Question in Survey.Questions)
             {
-                
-                editor = GetEditor(Question.EditorType);
+                IEditor editor;
+                editor = GetEditor(Question.QuestionType);
                 editor.Init(Question);
                 editor.EditorDone += EditorDone;
                 Items.Add(new QuestionViewModel() {Progress = (double)questionCount/Survey.Questions.Count,End = false, Question = Question, View = new ContentView() { Content = editor.View() } });
@@ -34,7 +33,7 @@ namespace Project_E.Pages
             Items.Add(new QuestionViewModel() { Progress = 1, Question = null,End = true, View = new ContentView() { Content =  new Finish()} });
             InitializeComponent();
             ItemsSource = Items;
-            Title = Survey.Name;
+            Title = Survey.SurveyName;
         }
 
         private void EditorDone(object sender, EventArgs e)

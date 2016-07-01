@@ -11,7 +11,7 @@ namespace Project_E.Editors
 {
     public partial class ListEditor : IEditor
     {
-        private Choice Answer { get; set; }
+        private QuestionOption Answer { get; set; }
         public ListEditor()
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace Project_E.Editors
         {
             if (Answer != null)
             {
-                return Answer.Option;
+                return Answer.OptionText;
             }
             else
             {
@@ -43,7 +43,7 @@ namespace Project_E.Editors
 
         private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Answer = (Choice)e.SelectedItem;
+            Answer = (QuestionOption)e.SelectedItem;
             EditorDone?.Invoke(this, EventArgs.Empty);
         }
     }

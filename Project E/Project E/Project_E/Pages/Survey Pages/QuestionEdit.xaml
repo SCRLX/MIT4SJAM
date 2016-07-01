@@ -5,18 +5,18 @@
              BackgroundColor="#F5F5F5">
   <StackLayout Padding="30">
     <Label TextColor="Black" Text="Vraag: " HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
-    <Entry Placeholder="{Binding Inquiry}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
+    <Entry Placeholder="{Binding Question.QuestionText}" HorizontalTextAlignment="Center" PlaceholderColor="Gray"></Entry>
         <BoxView HeightRequest="1" Color="#FF847C" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300"></BoxView>
     <Label TextColor="Black" Text="Type: " HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
     <Picker x:Name="TypePicker" Title="Kies een type" SelectedIndexChanged="TypePicker_OnSelectedIndexChanged"></Picker>
         <BoxView HeightRequest="1" Color="#FF847C" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300"></BoxView>
     <Grid>
       <ContentView x:Name="Options" IsVisible="False">
-        <ListView ItemsSource="{Binding Choices}">
+        <ListView ItemsSource="{Binding QuestionOptions}">
           <ListView.ItemTemplate>
             <DataTemplate>
               <ViewCell>
-                <Label Text="{Binding Option}" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="{Binding OptionText}" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
               </ViewCell>
             </DataTemplate>
           </ListView.ItemTemplate>

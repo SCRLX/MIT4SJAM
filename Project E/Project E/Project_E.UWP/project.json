@@ -2,6 +2,7 @@
   "dependencies": {
     "CarouselView.FormsPlugin": "1.0.18",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+    "sqlite-net-pcl": "1.1.2",
     "Xamarin.Forms": "2.3.0.49"
   },
   "frameworks": {

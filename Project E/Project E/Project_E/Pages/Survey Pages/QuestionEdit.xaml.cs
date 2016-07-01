@@ -22,7 +22,7 @@ namespace Project_E.Pages.Survey_Pages
             TypePicker.Items.Add(Question.EditorTypes.Multiplechoice.ToString());
             TypePicker.Items.Add(Question.EditorTypes.Open.ToString());
             ToolbarItems.Add(new ToolbarItem("close", "close.png", new Action(Close), ToolbarItemOrder.Default, 0));
-            switch (question.EditorType)
+            switch (question.QuestionType)
             {
                 case Models.Question.EditorTypes.Rating:
                     TypePicker.SelectedIndex = 0;
@@ -72,13 +72,13 @@ namespace Project_E.Pages.Survey_Pages
             switch (TypePicker.SelectedIndex)
             {
                 case 0:
-                    Question.EditorType = Question.EditorTypes.Rating;
+                    Question.QuestionType = Question.EditorTypes.Rating;
                     break;
                 case 1:
-                    Question.EditorType = Question.EditorTypes.Multiplechoice;
+                    Question.QuestionType = Question.EditorTypes.Multiplechoice;
                     break;
                 default:
-                    Question.EditorType = Question.EditorTypes.Open;
+                    Question.QuestionType = Question.EditorTypes.Open;
                     break;
             }
             Question question = SurveyEdit.Survey.Questions.Where(q => q == Question).FirstOrDefault();

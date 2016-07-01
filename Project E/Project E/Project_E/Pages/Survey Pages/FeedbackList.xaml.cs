@@ -14,7 +14,7 @@ namespace Project_E.Pages
         public FeedbackList(Survey survey)
         {
             InitializeComponent();
-            Title = $"Feedback van {survey.Name}";
+            Title = $"Feedback van {survey.SurveyName}";
             BindingContext = survey;
         }
     }
