@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using CarouselView.FormsPlugin.iOS;
 using Foundation;
-using Syncfusion.SfRating.XForms.iOS;
 using UIKit;
 
 namespace Project_E.iOS
@@ -25,7 +24,6 @@ namespace Project_E.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             CarouselViewRenderer.Init();
-            new SfRatingRenderer();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

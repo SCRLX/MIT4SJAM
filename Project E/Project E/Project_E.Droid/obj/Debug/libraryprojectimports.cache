@@ -2,21 +2,30 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Syncfusion.SfRating.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Syncfusion.SfRating.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Syncfusion.SfRating.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\zuyd_mit4_mit4sjam\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\CarouselView.FormsPlugin.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Syncfusion.SfRating.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

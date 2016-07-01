@@ -22,14 +22,14 @@ namespace Project_E.Pages
             foreach (var Question in Survey.Questions)
             {
                 IEditor editor;
-                editor = GetEditor(Question.EditorType);
+                editor = GetEditor(Question.QuestionType);
                 editor.Init(Question);
                 Items.Add(new QuestionViewModel() {Progress = questionCount/Survey.Questions.Count, Question = Question, View = new ContentView() { Content = editor.View() } });
                 questionCount++;
             }
             InitializeComponent();
             ItemsSource = Items;
-            Title = Survey.Name;
+            Title = Survey.SurveyName;
         }
         private IEditor GetEditor(Question.EditorTypes type)
         {

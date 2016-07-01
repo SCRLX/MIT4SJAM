@@ -1,15 +1,15 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\carouselview.formsplugin.1.0.18\lib\portable-net45+netcore45+wpa81+wp8+monoandroid10+xamarin.ios10\carouselview.formsplugin.abstractions.dll" HashGuid="7b898343-72ca-7580-55ab-2a5966ff8910" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\project e\project_e\bin\debug\project_e.dll" HashGuid="bee0bb48-a7f1-eac8-1896-e0cac2b6dcb2" />
-    <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfinput.wp.dll" HashGuid="006d7f49-0cfb-b8b5-e3b2-31f8aeb41b07" />
-    <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfrating.xforms.dll" HashGuid="e2e4882c-3293-df91-adb5-fc4328e100e6" />
-    <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfrating.xforms.winphone.dll" HashGuid="be365000-4428-84ff-485e-b01c9405bb75" />
-    <ReferenceAssembly PathName="d:\14.2.0.26\xamarin\lib\wp81\syncfusion.sfshared.wp.dll" HashGuid="00d6309e-1aef-72a1-5bd3-5561145456b3" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.core.dll" HashGuid="c30391b9-f93a-55bc-3bed-bad91032c5ef" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="0582f833-519c-0b5c-af4a-4e3bd65d7303" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="8b4d7ca9-dc92-b144-cb48-ecad39695391" />
-    <ReferenceAssembly PathName="d:\zuyd_mit4_mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\carouselview.formsplugin.1.0.18\lib\portable-net45+netcore45+wpa81+wp8+monoandroid10+xamarin.ios10\carouselview.formsplugin.abstractions.dll" HashGuid="7b898343-72ca-7580-55ab-2a5966ff8910" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\project e\project_e\bin\debug\project_e.dll" HashGuid="6698fcf9-ab03-29ec-c5c9-10da2c018943" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\sqlite-net-pcl.1.1.2\lib\portable-net45+wp8+wpa81+win8+monoandroid10+monotouch10+xamarin.ios10\sqlite-net.dll" HashGuid="382cf316-94da-83f2-801c-5849044c8843" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\sqlitepcl.bundle_green.0.9.2\lib\win81\sqlitepcl.batteries.dll" HashGuid="f454b16c-61db-998b-5a30-b9178be2bada" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\sqlitepcl.raw.0.9.2\lib\win81\sqlitepcl.raw.dll" HashGuid="e74a9d3a-9e47-4ed7-4bf1-9751e02b5567" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\sqlitepcl.plugin.sqlite3.win81.0.9.2\lib\win81\sqlitepclplugin_esqlite3.dll" HashGuid="65318555-4391-7af6-1cee-89198df1a991" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.core.dll" HashGuid="c30391b9-f93a-55bc-3bed-bad91032c5ef" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="0582f833-519c-0b5c-af4a-4e3bd65d7303" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="8b4d7ca9-dc92-b144-cb48-ecad39695391" />
+    <ReferenceAssembly PathName="c:\users\snipezpunisher\documents\mit4sjam\project e\packages\xamarin.forms.2.3.0.49\lib\win81\xamarin.forms.xaml.dll" HashGuid="68924db8-a65f-e414-d0af-af182cfb1786" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

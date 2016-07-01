@@ -7,7 +7,8 @@ public class SfRating_valueChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.syncfusion.rating.SfRating.valueChangedListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onValueChanged:(Ljava/lang/Object;D)V:GetOnValueChanged_Ljava_lang_Object_DHandler:Com.Syncfusion.Rating.SfRating/IValueChangedListenerInvoker, Syncfusion.SfRating.Android\n" +
@@ -31,7 +32,7 @@ public class SfRating_valueChangedListenerImplementor
 
 	private native void n_onValueChanged (java.lang.Object p0, double p1);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

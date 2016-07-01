@@ -17,8 +17,16 @@ namespace Project_E.Pages {
     public partial class Login : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry Email_Entry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry Password_Entry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Login));
+            Email_Entry = this.FindByName<global::Xamarin.Forms.Entry>("Email_Entry");
+            Password_Entry = this.FindByName<global::Xamarin.Forms.Entry>("Password_Entry");
         }
     }
 }

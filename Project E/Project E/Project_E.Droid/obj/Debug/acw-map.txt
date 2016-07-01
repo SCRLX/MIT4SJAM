@@ -14,14 +14,6 @@ CarouselView.FormsPlugin.Android.CarouselViewRenderer/PageAdapter, CarouselView.
 CarouselView.FormsPlugin.Android.CarouselViewRenderer+PageAdapter, CarouselView.FormsPlugin.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fa3be16b83ce3acd3be83265686c14de.CarouselViewRenderer_PageAdapter
 CarouselView.FormsPlugin.Android.CarouselViewRenderer.PageAdapter;md5fa3be16b83ce3acd3be83265686c14de.CarouselViewRenderer_PageAdapter
 carouselview.formsplugin.android.CarouselViewRenderer_PageAdapter;md5fa3be16b83ce3acd3be83265686c14de.CarouselViewRenderer_PageAdapter
-Com.Syncfusion.Rating.SfRating/IValueChangedListenerImplementor, Syncfusion.SfRating.Android;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
-Com.Syncfusion.Rating.SfRating+IValueChangedListenerImplementor, Syncfusion.SfRating.Android, Version=14.2451.0.26, Culture=neutral, PublicKeyToken=null;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
-Com.Syncfusion.Rating.SfRating.IValueChangedListenerImplementor;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
-mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
-Syncfusion.SfRating.XForms.Droid.SfRatingRenderer, Syncfusion.SfRating.XForms.Android;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
-Syncfusion.SfRating.XForms.Droid.SfRatingRenderer, Syncfusion.SfRating.XForms.Android, Version=14.2451.0.26, Culture=neutral, PublicKeyToken=null;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
-Syncfusion.SfRating.XForms.Droid.SfRatingRenderer;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
-syncfusion.sfrating.xforms.droid.SfRatingRenderer;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
@@ -578,3 +570,11 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Fo
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 xamarin.forms.platform.android.appcompat.FormsFragmentPagerAdapter_1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
+Com.Syncfusion.Rating.SfRating/IValueChangedListenerImplementor, Syncfusion.SfRating.Android;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
+Com.Syncfusion.Rating.SfRating+IValueChangedListenerImplementor, Syncfusion.SfRating.Android, Version=14.2451.0.26, Culture=neutral, PublicKeyToken=null;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
+Com.Syncfusion.Rating.SfRating.IValueChangedListenerImplementor;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
+mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor;mono.com.syncfusion.rating.SfRating_valueChangedListenerImplementor
+Syncfusion.SfRating.XForms.Droid.SfRatingRenderer, Syncfusion.SfRating.XForms.Android;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
+Syncfusion.SfRating.XForms.Droid.SfRatingRenderer, Syncfusion.SfRating.XForms.Android, Version=14.2451.0.26, Culture=neutral, PublicKeyToken=null;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
+Syncfusion.SfRating.XForms.Droid.SfRatingRenderer;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer
+syncfusion.sfrating.xforms.droid.SfRatingRenderer;md54500f766ce4fe1cfaedf1d568a2b318e.SfRatingRenderer

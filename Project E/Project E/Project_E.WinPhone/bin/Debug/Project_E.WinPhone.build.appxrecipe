@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-B69SN7DA</Machine>
+    <WindowsUser>SNIPEZPUNISHER</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e8ebdf4c-1a3c-4b54-919a-429e98e93142</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\Project_E.WinPhone.exe">
+      <PackagePath>Project_E.WinPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Acr.UserDialogs.5.2.2\lib\wpa81\Acr.UserDialogs.dll">
+      <PackagePath>Acr.UserDialogs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Acr.UserDialogs.5.2.2\lib\wpa81\Acr.UserDialogs.Interface.dll">
+      <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Coding4Fun.Toolkit.Controls.2.1.6\lib\wpa81\Coding4Fun.Toolkit.Controls.dll">
+      <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Coding4Fun.Toolkit.Controls.2.1.6\lib\wpa81\Coding4Fun.Toolkit.dll">
+      <PackagePath>Coding4Fun.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Binding.4.2.0\lib\wpa81\MvvmCross.Binding.dll">
+      <PackagePath>MvvmCross.Binding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Core.4.2.0\lib\wpa81\MvvmCross.Core.dll">
+      <PackagePath>MvvmCross.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Binding.4.2.0\lib\wpa81\MvvmCross.Localization.dll">
+      <PackagePath>MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Platform.4.2.0\lib\wpa81\MvvmCross.Platform.dll">
+      <PackagePath>MvvmCross.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Platform.4.2.0\lib\wpa81\MvvmCross.Platform.WindowsCommon.dll">
+      <PackagePath>MvvmCross.Platform.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\MvvmCross.Core.4.2.0\lib\wpa81\MvvmCross.WindowsCommon.dll">
+      <PackagePath>MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\PCLCrypto.2.0.147\lib\portable-win81+wpa81\PCLCrypto.dll">
+      <PackagePath>PCLCrypto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\PInvoke.BCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.BCrypt.dll">
+      <PackagePath>PInvoke.BCrypt.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\PInvoke.Kernel32.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Kernel32.dll">
+      <PackagePath>PInvoke.Kernel32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\PInvoke.NCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.NCrypt.dll">
+      <PackagePath>PInvoke.NCrypt.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\PInvoke.Windows.Core.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Windows.Core.dll">
+      <PackagePath>PInvoke.Windows.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E\bin\Debug\Project_E.dll">
+      <PackagePath>Project_E.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Splat.1.6.2\lib\Portable-Win81+Wpa81\Splat.dll">
+      <PackagePath>Splat.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Validation.2.2.8\lib\dotnet\Validation.dll">
+      <PackagePath>Validation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\ReadMe.Coding4Fun.Toolkit.txt">
+      <PackagePath>ReadMe.Coding4Fun.Toolkit.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\Project_E.WinPhone.xr.xml">
+      <PackagePath>Project_E.WinPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Coding4Fun.Toolkit.Controls.2.1.6\lib\wpa81\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Coding4Fun.Toolkit.Controls.2.1.6\lib\wpa81\Coding4Fun.Toolkit.Controls\Themes\Generic.xbf">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\FormsTextBoxStyle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\packages\Xamarin.Forms.2.3.0.49\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SNIPEZPUNISHER\Documents\MIT4SJAM\Project E\Project E\Project_E.WinPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
